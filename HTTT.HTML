@@ -1,0 +1,166 @@
+<HTML>
+<HEAD><STYLE>/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:BLACK;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color:#FF7E67;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;}body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+</STYLE>
+
+</HEAD>
+<BODY>PRIVATE
+<div class="split left">
+  <div class="centered">
+ 
+    <h2><FONT COLOR="WHITE" SIZE=20>OLD USER</h2></FONT>
+    <p><FONT COLOR="WHITE" SIZE=10>
+ <br/><br/><br/><br/><br/><br/><br/> <img src="NEWUSER.JPG" alt="Avatar woman">
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1><font size=20>Sign Up</font></h1>
+    <p><font size=5>Please fill in this form to create an account.</font></p>
+    <hr>
+
+    <label for="email"><b><font size=5>Email</font></b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><font size=5><b>Password</b></font></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b><font size=5>Repeat Password</font></b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"><font size=20><font size=5> Remember me</font>
+    </label>
+    
+    <p><font size=5>By creating an account you agree to our </font><a href="#" style="color:dodgerblue"><font size=5>Terms & Privacy</font></a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</FONT></p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <br/><br/><br/><br/><br/><img src="USER60.PNG" alt="Avatar man">
+    <h2><FONT COLOR="WHITE"SIZE=20>OLD USER</FONT></h2>
+    <p><form action="/action_page.php" method="post">
+ 
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> <FONT COLOR="WHITE">Remember me</FONT>
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form></p>
+  </div>
+</div>
+</BODY></HTML>
