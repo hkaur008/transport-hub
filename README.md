@@ -7,8 +7,7 @@ Second, click on "homepage" file.
 
 
 
-this repository contains one ppt to explain project.
-and a transport hub named website which is the basic raw design..
+This repository contains one ppt to explain project and a transport hub named website which is the basic raw design.
 
 
 
