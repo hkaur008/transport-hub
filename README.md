@@ -1,9 +1,9 @@
 # transport-hub
-The three major problems we are facing in the transport system are, cost of transportation, efficiency, and pollution created by the vehicles and there is lack of awareness about how these transports affect the environment.
-how to assemble?
-this is basically frontend 
-download all the html and images at desktop
-click on homepage file....
+The three major problems we are facing in the transport system are: cost of transportation, efficiency, and pollution created by the vehicles and there is lack of awareness about howthe transport facilities affect the environment.
+How to assemble the project files?
+This is basically frontend. 
+First, download all the html files and images at desktop.
+Second, click on "homepage" file.
 
 
 
